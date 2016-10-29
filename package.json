@@ -1,0 +1,29 @@
+{
+  "name": "dynamic_list",
+  "version": "1.0.0",
+  "description": "this is pilot version fot practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "dynamic"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomaSlobodeniuk/dynamicList.git"
+  },
+  "keywords": [
+    "front-end",
+    "dynamiclist"
+  ],
+  "author": "RomaSlobodeniuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomaSlobodeniuk/dynamicList/issues"
+  },
+  "homepage": "https://github.com/RomaSlobodeniuk/dynamicList#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2016": "^6.16.0",
+    "bootstrap": "^3.3.7"
+  }
+}
