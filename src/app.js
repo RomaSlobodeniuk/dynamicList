@@ -20,11 +20,12 @@ search.onkeyup = function() {
         return element.name.toLowerCase().includes(queryString);
     });
     let container = document.createElement('div');
+    container.className = 'row';
 
     render(searchQuery).forEach(function(element) {
         container.appendChild(element);
     });
 
-    let listGgroup = document.querySelector('.list-group');
+    let listGgroup = document.querySelector('.to_replace');
     listGgroup.replaceChild(container, listGgroup.childNodes[0]);
 };
