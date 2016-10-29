@@ -78,7 +78,7 @@ const list = [
         date: '2001-2010',
         href: 'http://zagonka.ru/2202-klinika-online.html',
         src: 'http://zagonka.ru/uploads/posts/2013-05/1368708100_klinika.jpg',
-        alt: 'picture_of_the_Scribes'
+        alt: 'picture_of_the_Scrubs'
     },
     {
         id: 10,
