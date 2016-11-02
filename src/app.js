@@ -20,7 +20,7 @@ search.onkeyup = function() {
         return element.name.toLowerCase().includes(queryString);
     });
     let container = document.createElement('div');
-    container.className = 'row';
+    container.className = 'container';
 
     render(searchQuery).forEach(function(element) {
         container.appendChild(element);

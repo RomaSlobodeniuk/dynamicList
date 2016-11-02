@@ -45,15 +45,19 @@ var render = function(list) {
         let div_col_sm_12_node = document.createElement('div');
         div_col_sm_12_node.className = 'col-sm-12';
         div_col_sm_12_node.appendChild(div_jumbotron_node);
+        //div_row
+        let div_row_node = document.createElement('div');
+        div_row_node.className = 'row';
+        div_row_node.appendChild(div_col_sm_12_node);
 
-        return div_col_sm_12_node;
+        return div_row_node;
     });
     return nameList;
 };
 
 window.onload = function() {
     let container = document.createElement('div');
-    container.className = 'row';
+    container.className = 'container';
     render(list).forEach(function(element) {
         container.appendChild(element);
     });
